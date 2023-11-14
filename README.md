@@ -3,4 +3,5 @@
 * malody_reader：基于pygame的malody读谱器
 * pixiv爬图：基于([pixiv镜像站](https://pixivic.com/))的图片爬取(账号付)
 * serial_assistant：包含数据可视化功能的串口助手
+* FLD_Light：基于法拉第效应的光强自稳定装置
 * SH_AGV：上海宝钢合作项目-AGV小车底层驱动代码

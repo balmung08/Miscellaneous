@@ -1,0 +1,77 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: b rj, jlu, LIC=ZB463-A2FMI-X69QZ-JZUL9-YBSKJ-XME6Y
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Standard  Version: 5.14.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DCM.DLL V1.13.1.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.14.0_KEIL
+Dialog DLL:      TCM.DLL V1.14.4.0
+ 
+<h2>Project:</h2>
+C:\Users\admin\Desktop\大创\稳光反馈程序\USER\Template.uvprojx
+Project File Date:  09/08/2021
+
+<h2>Output:</h2>
+Build target 'Template'
+compiling main.c...
+..\SYSTEM\dmotor\motor.h(7): warning:  #1295-D: Deprecated declaration TIM4_PWM_Init - give arg types
+  void TIM4_PWM_Init();
+..\SYSTEM\dmotor\motor.h(9): warning:  #1-D: last line of file ends without a newline
+  #endif
+main.c(34): warning:  #177-D: variable "light" was declared but never referenced
+        float light;
+main.c(35): warning:  #177-D: variable "Pi" was declared but never referenced
+        const double Pi=3.14;
+main.c(36): warning:  #177-D: variable "I" was declared but never referenced
+        float I;
+main.c(37): warning:  #177-D: variable "U" was declared but never referenced
+        float U;
+main.c(38): warning:  #177-D: variable "R" was declared but never referenced
+        float   R=10.959;
+main.c(39): warning:  #177-D: variable "Initial_light_intensity" was declared but never referenced
+        float Initial_light_intensity;//初射光强
+main.c(40): warning:  #177-D: variable "Light_intensity_after_deflection" was declared but never referenced
+        float Light_intensity_after_deflection;//偏转后光强
+main.c(41): warning:  #177-D: variable "angle0" was declared but never referenced
+    float angle0=0;//偏转角度
+main.c(42): warning:  #177-D: variable "angle" was declared but never referenced
+        float angle=0;
+main.c(44): warning:  #177-D: variable "Light_intensity" was declared but never referenced
+        float Light_intensity;//传感器接收到的光强
+main.c(45): warning:  #177-D: variable "adcx" was declared but never referenced
+        int adcx;
+main.c(48): warning:  #177-D: variable "reclen" was declared but never referenced
+        u8 reclen=0;  
+main.c(49): warning:  #177-D: variable "status" was declared but never referenced
+        char status;
+main.c(51): warning:  #177-D: variable "start" was declared but never referenced
+        int start=0;
+main.c(61): warning:  #550-D: variable "Bme" was set but never used
+  bme Bme={0,0,0,0};
+main.c: 17 warnings, 0 errors
+linking...
+Program Size: Code=11298 RO-data=2426 RW-data=80 ZI-data=3032  
+FromELF: creating hex file...
+"..\OBJ\Template.axf" - 0 Error(s), 17 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\admin\Desktop\大创\稳光反馈程序\USER\RTE
+  C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+</pre>
+</body>
+</html>
