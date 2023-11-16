@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view class="container">
+    <text style="font-size:20px;font-family:'华文行楷';display:{{show}}"> 
+    本程序仅作演示用\n
+    服务器来自个人\n
+    实际应用时会对大规模并发另作优化
+    </text>
+    <text style="font-size:24px;margin-bottom: 28px;"> {{text}} </text>
+    <image src="{{image}}" style="width: 175px; height: 175px;"></image>
+    <button style="display:{{show}}"class="btn" bindtap="autodo" > 演示启动 </button>
+    <text style="font-size:24px;margin-top: 28px;"> {{tip}} </text>
+</view>
